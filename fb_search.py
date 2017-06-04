@@ -15,9 +15,10 @@ elem = driver.find_element_by_id("pass")
 elem.send_keys(pwd)
 elem.send_keys(Keys.RETURN)
 
+find = raw_input("what you want to search: ")
 search = driver.find_element_by_name("q") 
 search.clear()
-search.send_keys("Share Auto/Tempo @IITK")
+search.send_keys(find)
 search.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 
