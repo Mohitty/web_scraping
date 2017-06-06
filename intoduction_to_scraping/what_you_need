@@ -1,1 +1,15 @@
+PROGRAMMING LANGUAGE AND SOURCE FOR LEARNING:
+
+To start web sraping you need to have a programming experience.
+I learned python for the purpose.
+A good source is Learn Python The Hard Way and the python documentation.
+Doing all exercises will give a very good hand on practice in python.
+
+FRAMEWORK FOR BROWSER AUTOMATION:
+
+Selenium is the frmework that i used for the scraping.
+It supports many languages including python(i would prefer it over java or other language for this purpose)
+Installation and other setup process are given in the file named Selenium.
+
+#I will further update the features and components as i go through :p
 
