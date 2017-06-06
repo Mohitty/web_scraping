@@ -1,1 +1,43 @@
+Introduction To Selenium:
 
+Selenium is a free (open source) automated testing suite for web applications across different browsers and platforms.
+Testing done using Selenium tool is usually referred as Selenium Testing.
+Selenium is not just a single tool but a suite of software's, each catering to different testing needs of an organization. 
+It has four components.
+  * Selenium Integrated Development Environment (IDE)
+  * Selenium Remote Control (RC)
+  * WebDriver
+  * Selenium Grid
+At the moment, Selenium RC and WebDriver are merged into a single framework to form Selenium 2.
+
+
+Introduction To Webdriver:
+
+The WebDriver proves itself to be better than both Selenium IDE and Selenium RC in many aspects. 
+It implements a more modern and stable approach in automating the browser's actions. 
+WebDriver, unlike Selenium RC, does not rely on JavaScript for Automation. 
+It controls the browser by directly communicating with it.
+
+webdriver is used:
+    To use a certain programming language in designing your test case.
+    To test applications that are rich in AJAX-based functionalities.
+    To execute tests on the HtmlUnit browser.
+    To create customized test results.
+So, basically we use selenium webdriver(provides firefox,chrome, IE etc webdrivers) to interact with the browser.
+
+Installation And Setup:
+
+You can download Python bindings for Selenium from " https://pypi.python.org/pypi/selenium ". 
+However, a better approach would be to use pip to install the selenium package. 
+Python 3.6 has pip available in the standard library. 
+Using pip (install pip if you don't have it), you can install selenium like this:
+     -> pip install selenium
+ 
+Installing driver:
+Selenium requires a driver to interface with the chosen browser. 
+For example I am using Firefox which requires geckodriver, which needs to be installed before the below examples can be run. 
+Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.
+
+To download geckodriver go to ' https://github.com/mozilla/geckodriver/releases "
+
+##Further information will be uploaded soon :)
